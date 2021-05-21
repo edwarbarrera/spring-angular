@@ -1,4 +1,4 @@
-import { Employee } from './../employee';
+import { Employee } from '../employee';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,6 +12,24 @@ export class EmployeeListComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+this.employees=[
+      {
+        "id": 1,
+        "firstName": "string1",
+        "lastName": "string1",
+        "emailId": "string@gmail.com"
+
+      },
+      {
+        "id": 21,
+        "firstName": "string21",
+        "lastName": "string21",
+        "emailId": "string21@gmail.com"
+
+      }
+    ];
+
+
   }
 
 }
